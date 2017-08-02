@@ -7,10 +7,10 @@
     <version>${version}</version>
     <packaging>war</packaging>
 
-    <name>Java EE 7</name>
+    <name>JavaEE 7</name>
 
     <build>
-        <finalName>Javaee7</finalName>
+        <finalName>${artifactId}</finalName>
         <resources>
             <resource>
                 <directory>src/main/resources</directory>
